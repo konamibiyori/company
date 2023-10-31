@@ -17,7 +17,8 @@ $font-size-base: 16px;
 $color-base: #333;
 
 body {
-  font-family: "Josefin Sans", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-family: "Josefin Sans", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
   font-size: 16px;
   color: #333;
   font-feature-settings: "palt";
@@ -36,7 +37,7 @@ img {
 .container {
   max-width: 1170px;
   margin-inline: auto;
-  padding-inline: 30px;
+  padding-inline: 20px;
 }
 
 .section {
@@ -432,7 +433,7 @@ case
 }
 
 .intro__title {
-  font-size: 56px;
+  font-size: 54px;
   font-style: italic;
   font-weight: 700;
   line-height: 1;
@@ -452,6 +453,8 @@ case
 }
 
 .intro__subtitle {
+  line-height: initial;
+  margin-top: 7px;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1.2px;
