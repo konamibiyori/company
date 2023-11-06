@@ -173,6 +173,7 @@ img {
   padding: 0 20px;
   transition: 0.3s;
 }
+
 @media screen and (min-width: 1025px) {
   .header {
     height: 80px;
@@ -183,6 +184,7 @@ img {
 .header__logo {
   width: 100px;
 }
+
 @media screen and (min-width: 1025px) {
   .header__logo {
     width: 150px;
@@ -485,7 +487,7 @@ case
 
 @media screen and (min-width: 1025px) {
   .intro__title {
-    font-size: 106px;
+    font-size: 94px;
     margin-bottom: 10px;
   }
 }
